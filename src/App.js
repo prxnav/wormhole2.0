@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import "./components/Landingpage/Landingpage"; 
+import Landingpage from './components/Landingpage/Landingpage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Wormhole2.0</h1>
+      <Landingpage/>
     </div>
   );
 }
